@@ -1,0 +1,95 @@
+/* Immagine Sfondo */
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 25% ;
+}
+
+main > div {
+    box-sizing: border-box;
+}
+/* Elementi testo */
+.titolo { 
+       font-family: "Poppins", sans serif;
+        color: lime;
+        text-align: center;
+        
+    }
+
+.nomi {
+    font-family: "Poppins", sans serif;
+        color: white;
+        display: inline-block;
+        line-height: 5%;
+        padding-top: 20px;
+}
+
+.text {
+    font-family: "Poppins", sans serif;
+        color: white;
+        display: inline;
+}
+
+/* FORMATTAZIONE */
+/* Barra navigazione */
+.nav {
+    background-color: lime;
+    text-align: center;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Sfondo nero */
+.dark {
+    background-color: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 50px; ;
+    margin-left: 18%;
+    margin-right: 18%;
+    border-radius: 15px;
+}
+
+/* Freccia */
+.arrow::after {
+    content: "\21A6";
+    display: inline;
+    color: white;
+}
+
+main {
+    padding-left: 50px;
+}
+
+/* Barre di carica */
+
+.bar1 {
+    background-color: orange;
+    height: 40px;
+    width: 33%;
+    border-radius: 7px;
+}
+
+.bar2 {
+    background-color: green;
+    height: 40px;
+    width: 60%;
+    border-radius: 7px;
+}
+
+.bar3 {
+    background-color: red;
+    height: 40px;
+    width: 10%;
+    border-radius: 7px;
+}
